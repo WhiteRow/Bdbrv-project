@@ -1,0 +1,6 @@
+/.git
+/.vscode
+
+webpack
+node_modules
+public

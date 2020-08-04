@@ -1,0 +1,21 @@
+.text {
+    font-family: $fontRegular;
+    line-height: toRem(24px);
+
+    &--big {
+        font-size: toRem(textBigSize);
+    }
+
+    &--small {
+        font-size: toRem(textSmallSize);
+    }
+
+    &--gray {
+        color: $gray;
+        opacity: .8;
+    }
+
+    &--darkGray {
+        color: $darkGray
+    }
+}

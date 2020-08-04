@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    font-size: toRem($baseFontSize);
+
+    *,
+    *:after,
+    *:before,
+    button,
+    input {
+        box-sizing: inherit;
+        font-family: inherit;
+    }
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+figure,
+div,
+img,
+ul,
+li,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+button,
+[role="button"] {
+    cursor: pointer;
+}
+
+figure {
+    line-height: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}

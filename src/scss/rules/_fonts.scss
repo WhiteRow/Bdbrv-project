@@ -1,0 +1,6 @@
+@include fontFace($fontRegularPath, $fontRegular, '400', 'normal');
+@include fontFace($fontRegularItalicPath, $fontRegularItalic, '400', 'italic');
+@include fontFace($fontMediumPath, $fontMedium, '500', 'normal');
+@include fontFace($fontRegularPath, $fontMediumItalic, '500', 'italic');
+@include fontFace($fontBoldPath, $fontBold, '600', 'normal');
+@include fontFace($fontBoldItalicPath, $fontBoldItalic, '600', 'italic');
