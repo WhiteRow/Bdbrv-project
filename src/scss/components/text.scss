@@ -3,11 +3,11 @@
     line-height: toRem(24px);
 
     &--big {
-        font-size: toRem(textBigSize);
+        font-size: toRem($textBigSize);
     }
 
     &--small {
-        font-size: toRem(textSmallSize);
+        font-size: toRem($textSmallSize);
     }
 
     &--gray {

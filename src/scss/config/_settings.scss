@@ -1,11 +1,15 @@
-/* 
+/** 
     Colors
 */
+$white: #FFFFFF;
 $darkGray: #AEAAAA;
 $gray: #6B6B6B;
 $mediumPurple: #6584F1;
 
-/* 
+$purpleLight: #A5B9FF;
+
+
+/** 
     Fonts paths
 */
 $fontRegularPath: 'fonts/google-sans/GoogleSans-Regular.ttf';
@@ -16,7 +20,7 @@ $fontBoldPath: 'fonts/google-sans/GoogleSans-Bold.ttf';
 $fontBoldItalicPath: 'fonts/google-sans/GoogleSans-BoldItalic.ttf';
 
 
-/* 
+/** 
     Fonts names
 */
 $fontRegular: 'GSR'; // Regular
@@ -27,11 +31,38 @@ $fontBold: 'GSB'; // Bold
 $fontBoldItalic: 'GSBI'; // Bold italic
 
 
-/* 
-    Typography
+/**
+    Title sizes
+*/
+$titleLarge: 64px;
+$titleBig: 36px;
+$titleMedium: 24px;
+
+
+/**
+    Text sizes
 */
 $baseFontSize: 16px;
 
 $textBigSize: 18px;
 $textSmallSize: 16px;
 $textTinySize: 14px;
+
+
+/**
+    Container width
+*/
+$containerWidth: 1440px;
+
+/**
+    Border radius
+*/
+$borderRadius: 14px;
+
+/** 
+    Animation timing
+*/
+$fastAnimation: 0.1s;
+$mediumAnimation: 0.2s;
+$normalAnimation: 0.3s;
+$slowAnimation: 0.5s;

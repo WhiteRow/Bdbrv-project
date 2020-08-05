@@ -1,0 +1,6 @@
+.container {
+    width: 100%;
+    max-width: $containerWidth;
+
+    padding: 0 toRem(10px);
+}

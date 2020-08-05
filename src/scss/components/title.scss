@@ -1,0 +1,35 @@
+.title {
+    &--large {
+        font-size: toRem($titleLarge);
+        line-height: toRem(73px);
+    }
+
+    &--big {
+        font-family: serif;
+        font-size: toRem($titleBig);
+        line-height: toRem(46px);
+    }
+
+    &--medium {
+        font-size: toRem($titleMedium);
+        line-height: toRem(31px);
+    }
+
+    &--bold {
+        font-family: $fontBold;
+    }
+
+    &--medium {
+        font-family: $fontMedium
+    }
+
+    &--regular {
+        font-family: $fontRegular;
+    }
+
+    &--highlight-letter & {
+        &__highlight {
+            color: $mediumPurple
+        }
+    }
+}

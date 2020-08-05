@@ -11,6 +11,12 @@
 
 @mixin cmq ($max) {
     @media (max-width: $max) {
-        @content
+        @content;
+    }
+}
+
+@mixin active () {
+    &:active {
+        opacity: .8;
     }
 }
