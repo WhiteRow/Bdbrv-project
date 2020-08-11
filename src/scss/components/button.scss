@@ -1,1 +1,29 @@
-.button {}
+.button {
+    border: 0;
+    border-radius: toRem($borderRadius);
+
+    outline: 0;
+
+    &--large {
+        width: toRem(250px);
+
+        padding: toRem(25px) toRem(10px);
+
+        font-size: $textBigSize;
+        color: #fff;
+    }
+
+    &--purple {
+        background-color: $mediumPurple;
+        color: $white;
+
+        transition: background-color $normalAnimation ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-color: $purpleLight;
+        }
+
+        @include active();
+    }
+}

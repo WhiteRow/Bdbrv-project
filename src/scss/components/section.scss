@@ -1,0 +1,9 @@
+.section {
+    width: 100%;
+    margin-bottom: toRem(85px);
+    
+    &__title {
+        margin-bottom: toRem(30px);
+
+    }
+}

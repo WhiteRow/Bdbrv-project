@@ -1,0 +1,34 @@
+.title {
+    &--large {
+        font-size: toRem($titleLarge);
+        line-height: toRem(73px);
+    }
+
+    &--big {
+        font-size: toRem($titleBig);
+        line-height: toRem(46px);
+    }
+
+    &--medium {
+        font-size: toRem($titleMedium);
+        line-height: toRem(31px);
+    }
+
+    &--bold {
+        font-weight: 600;
+    }
+
+    &--medium {
+        font-weight: 500;
+    }
+
+    &--regular {
+        font-weight: 400;
+    }
+
+    &--highlight-letter & {
+        &__highlight {
+            color: $mediumPurple
+        }
+    }
+}

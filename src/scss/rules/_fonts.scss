@@ -1,6 +1,77 @@
-@include fontFace($fontRegularPath, $fontRegular, '400', 'normal');
-@include fontFace($fontRegularItalicPath, $fontRegularItalic, '400', 'italic');
-@include fontFace($fontMediumPath, $fontMedium, '500', 'normal');
-@include fontFace($fontRegularPath, $fontMediumItalic, '500', 'italic');
-@include fontFace($fontBoldPath, $fontBold, '600', 'normal');
-@include fontFace($fontBoldItalicPath, $fontBoldItalic, '600', 'italic');
+@font-face {
+    font-family: $fontFamily;
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+
+    src: local($fontFamily),
+        url('#{$fontRegularPath}.woff2'),
+        url('#{$fontRegularPath}.woff'),
+        url('#{$fontRegularPath}.ttf'),
+        //url('#{$fontsPath}-SemiBold.eot');
+}
+
+@font-face {
+    font-family: $fontFamily;
+    font-weight: 500;
+    font-style: normal;
+    font-display: auto;
+
+    src: local($fontFamily),
+        url('#{$fontMediumPath}.woff2'),
+        url('#{$fontMediumPath}.woff'),
+        url('#{$fontMediumPath}.ttf'),
+        //url('#{$fontsPath}-SemiBold.eot');
+}
+
+@font-face {
+    font-family: $fontFamily;
+    font-weight: 600;
+    font-style: normal;
+    font-display: auto;
+
+    src: local($fontFamily),
+        url('#{$fontBoldPath}.woff2'),
+        url('#{$fontBoldPath}.woff'),
+        url('#{$fontBoldPath}.ttf'),
+        //url('#{$fontsPath}-SemiBold.eot');
+}
+
+@font-face {
+    font-family: $fontFamily;
+    font-weight: 400;
+    font-style: italic;
+    font-display: auto;
+
+    src: local($fontFamily),
+        url('#{$fontRegularItalicPath}.woff2'),
+        url('#{$fontRegularItalicPath}.woff'),
+        url('#{$fontRegularItalicPath}.ttf'),
+        //url('#{$fontsPath}-SemiBold.eot');
+}
+
+@font-face {
+    font-family: $fontFamily;
+    font-weight: 500;
+    font-style: italic;
+    font-display: auto;
+
+    src: local($fontFamily),
+        url('#{$fontMediumItalicPath}.woff2'),
+        url('#{$fontMediumItalicPath}.woff'),
+        url('#{$fontMediumItalicPath}.ttf'),
+        //url('#{$fontsPath}-SemiBold.eot');
+}
+
+@font-face {
+    font-family: $fontFamily;
+    font-weight: 600;
+    font-style: italic;
+    font-display: auto;
+
+    src: local($fontFamily),
+        url('#{$fontBoldItalicPath}.woff2'),
+        url('#{$fontBoldItalicPath}.woff'),
+        url('#{$fontBoldItalicPath}.ttf'),
+        //url('#{$fontsPath}-SemiBold.eot');
+}

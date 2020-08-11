@@ -1,16 +1,11 @@
-@mixin fontFace($path, $family, $weight, $style) {
-    @font-face {
-        src: url($path);
-
-        font-family: $family;
-        font-weight: $weight;
-        font-style: $style;
-        font-display: swap;
+@mixin cmq ($max) {
+    @media (max-width: $max) {
+        @content;
     }
 }
 
-@mixin cmq ($max) {
-    @media (max-width: $max) {
-        @content
+@mixin active () {
+    &:active {
+        opacity: .8;
     }
 }
