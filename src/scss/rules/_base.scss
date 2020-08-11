@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+
+    font-family: $fontFamily;
     font-size: toRem($baseFontSize);
 
     *,

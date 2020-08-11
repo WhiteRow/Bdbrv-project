@@ -5,7 +5,6 @@
     }
 
     &--big {
-        font-family: serif;
         font-size: toRem($titleBig);
         line-height: toRem(46px);
     }
@@ -16,15 +15,15 @@
     }
 
     &--bold {
-        font-family: $fontBold;
+        font-weight: 600;
     }
 
     &--medium {
-        font-family: $fontMedium
+        font-weight: 500;
     }
 
     &--regular {
-        font-family: $fontRegular;
+        font-weight: 400;
     }
 
     &--highlight-letter & {

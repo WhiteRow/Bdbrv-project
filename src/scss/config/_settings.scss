@@ -12,23 +12,19 @@ $purpleLight: #A5B9FF;
 /** 
     Fonts paths
 */
-$fontRegularPath: 'fonts/google-sans/GoogleSans-Regular.ttf';
-$fontRegularItalicPath: 'fonts/google-sans/GoogleSans-Italic.ttf';
-$fontMediumPath: 'fonts/google-sans/GoogleSans-Medium.ttf';
-$fontMediumItalicPath: 'fonts/google-sans/GoogleSans-MediumItalic.ttf';
-$fontBoldPath: 'fonts/google-sans/GoogleSans-Bold.ttf';
-$fontBoldItalicPath: 'fonts/google-sans/GoogleSans-BoldItalic.ttf';
+$fontRegularPath: 'fonts/google-sans/GoogleSans-Regular';
+$fontRegularItalicPath: 'fonts/google-sans/GoogleSans-Italic';
+$fontMediumPath: 'fonts/google-sans/GoogleSans-Medium';
+$fontMediumItalicPath: 'fonts/google-sans/GoogleSans-MediumItalic';
+$fontBoldPath: 'fonts/google-sans/GoogleSans-Bold';
+$fontBoldItalicPath: 'fonts/google-sans/GoogleSans-BoldItalic';
 
 
 /** 
-    Fonts names
-*/
-$fontRegular: 'GSR'; // Regular
-$fontRegularItalic: 'GSRI'; // Regular italic
-$fontMedium: 'GSM'; // Medium
-$fontMediumItalic: 'GSMI'; // Medium italic
-$fontBold: 'GSB'; // Bold 
-$fontBoldItalic: 'GSBI'; // Bold italic
+    Font
+*/ 
+
+$fontFamily: 'google-sans';
 
 
 /**
@@ -50,19 +46,20 @@ $textTinySize: 14px;
 
 
 /**
-    Container width
+    Container
 */
 $containerWidth: 1440px;
+$containerGaps: 20px;
 
 /**
-    Border radius
+    Border radius 
 */
 $borderRadius: 14px;
 
 /** 
     Animation timing
 */
-$fastAnimation: 0.1s;
-$mediumAnimation: 0.2s;
-$normalAnimation: 0.3s;
-$slowAnimation: 0.5s;
+$fastAnimation: 100ms;
+$mediumAnimation: 200ms;
+$normalAnimation: 300ms;
+$slowAnimation: 500ms;
